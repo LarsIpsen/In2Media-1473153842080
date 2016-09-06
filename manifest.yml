@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: In2Media
+  host: In2Media
+  disk_quota: 1024M
+  services:
+  - Auto-Scaling-9w
+  - Cloudant NoSQL DB-n3
